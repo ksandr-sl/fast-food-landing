@@ -1,0 +1,35 @@
+.intro {
+    background: url(/img/burger-intro.png);
+    padding: 280px 0 260px 0;
+    &__button {
+        display: block;
+        height: 50px;
+        width: 165px;
+        margin: 25px 0 0 0;
+        line-height: 50px;
+
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+    }
+    &__subtitle {
+        max-width: 550px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 57.33px;
+        line-height: 67px;
+    }
+    &__text {
+        max-width: 520px;
+        margin-top: 40px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        opacity: 0.7;
+    }
+}

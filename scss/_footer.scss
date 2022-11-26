@@ -1,0 +1,68 @@
+.footer {
+    padding: 0 0 140px 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__column {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__column:last-child {
+        justify-content: flex-start;
+    }
+    &__logo {
+        width: 130px;
+        margin: -40px 0px -20px -40px;
+    }
+    &__mail, &__site {
+        display: flex;
+    }
+    &__mail-icon, &__site-icon {
+        margin-right: 10px;
+    }
+    &__mail-address, &__site-address {
+        display: inline;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        opacity: 0.6;
+        color: #fff;
+        transition: .1s linear;
+        &:hover {
+            opacity: 1;
+            font-weight: 500;
+        }
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        opacity: 0.6;
+        color: #fff;
+        transition: .1s linear;
+        &:hover {
+            opacity: 1;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+    &__socials {
+        margin-top: 20px;
+    }
+    &__social-icon {
+        margin-right: 5px;
+    }
+}

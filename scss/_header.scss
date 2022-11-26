@@ -1,0 +1,38 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -100px;
+    }
+    &__logo {
+        width: 100px;
+        margin: 0 0 0 -30px;
+    }
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        margin: 0 -14px;
+    }
+    &__item {
+        padding: 40px 14px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: normal;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.7;
+        transition: .1s linear;
+        &:hover {
+            font-weight: 700;
+            opacity: 1;
+        }
+    }
+    &__button {
+        height: 50px;
+        width: 165px;
+        margin: 25px 0 0 0;
+        line-height: 50px;
+    }
+}
