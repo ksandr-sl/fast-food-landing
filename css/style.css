@@ -146,7 +146,7 @@ body {
 }
 
 .intro {
-  background: url(../img/burger-intro.png);
+  background: url(../img/burger-intro.png) left/cover;
   padding: 280px 0 260px 0;
 }
 .intro__button {
